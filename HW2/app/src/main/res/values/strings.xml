@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HW2</string>
+    <string name="th2">Thực hành 2</string>
+    <string name="nhap">Nhập vào số lượng</string>
+    <string name="tao">Tạo</string>
+    <string name="error_invalid_input">Dữ liệu bạn nhập không hợp lệ</string>
+</resources>

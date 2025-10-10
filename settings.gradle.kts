@@ -19,5 +19,12 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "MyApp"
 include(":app")
+=======
+rootProject.name = "HW2_bt3"
+include(":app")
+include(":app")
+ 
+>>>>>>> 13268ee (hw2)

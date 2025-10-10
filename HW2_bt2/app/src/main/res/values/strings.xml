@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW2_bt2</string>
+    <string name="th2">Thực hành 02</string>
+    <string name="nhap">Nhập tên</string>
+    <string name="nhapTuoi">Nhập tuổi</string>
+    <string name="nhapEmail">Nhập email</string>
+    <string name="ktra">Kiểm tra</string>
+</resources>

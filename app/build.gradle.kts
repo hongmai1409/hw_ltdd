@@ -4,11 +4,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.myapp"
     compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.myapp"
+=======
+    namespace = "com.example.hw2_bt3"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.example.hw2_bt3"
+>>>>>>> 13268ee (hw2)
         minSdk = 24
         targetSdk = 36
         versionCode = 1
