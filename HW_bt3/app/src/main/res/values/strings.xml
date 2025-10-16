@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW_bt3</string>
+    <string name="hoTen">Họ và tên:</string>
+    <string name="nhapHoTen">Nhập tên</string>
+    <string name="tuoi">Tuổi:</string>
+    <string name="nhapTuoi">Nhập tuổi</string>
+    <string name="check">Kiểm tra</string>
+</resources>

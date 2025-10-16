@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+<<<<<<< HEAD
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/avatarImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/mai"
+        android:contentDescription="Avatar"
+        android:scaleType="centerCrop"
+        android:background="@drawable/avatar_border" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Lê Hồng Mai"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TP. Hồ Chí Minh, Việt Nam"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sinh viên ngành CNTT, yêu thích lập trình di động và UI/UX."
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="8dp" />
+=======
+    android:padding="20dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#EEEEEE"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:text="@string/nhapHoTen"
+                android:textSize="16sp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginEnd="10dp"/>
+
+            <EditText
+                android:id="@+id/edtName"
+                android:hint="@string/nhapTen"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/edit_text"
+                android:importantForAutofill="no"
+                android:padding="8dp"
+                tools:ignore="TextFields" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/tuoi"
+                android:textColor="#616161"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edtAge"
+                android:hint="@string/nhapTuoi"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/edit_text"
+                android:padding="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:text="@string/ktra"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:backgroundTint="#1976D2"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+>>>>>>> 13268ee (hw2)
+
+</LinearLayout>

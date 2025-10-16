@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+<<<<<<< HEAD
     alias(libs.plugins.kotlin.compose)
 }
 
@@ -12,6 +13,24 @@ android {
 
     defaultConfig {
         applicationId = "com.example.jetpackcompose"
+=======
+}
+
+android {
+<<<<<<< HEAD
+    namespace = "com.example.myapp"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.example.myapp"
+=======
+    namespace = "com.example.hw2_bt3"
+    compileSdk = 36
+
+    defaultConfig {
+        applicationId = "com.example.hw2_bt3"
+>>>>>>> 13268ee (hw2)
+>>>>>>> 50aa58d3afa097313323db823eb306d8e4335611
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -36,6 +55,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+<<<<<<< HEAD
     buildFeatures {
         compose = true
     }
@@ -57,4 +77,16 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+=======
+}
+
+dependencies {
+
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+>>>>>>> 50aa58d3afa097313323db823eb306d8e4335611
 }
