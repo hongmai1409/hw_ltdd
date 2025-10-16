@@ -1,27 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 50aa58d3afa097313323db823eb306d8e4335611
+>>>>>>> 5cbef83aa5a495c8655b787d4555da75026e9944
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    package="com.example.hw2_bt3">
+
+    <application
+        android:allowBackup="true"
+>>>>>>> 13268ee (hw2)
+>>>>>>> 50aa58d3afa097313323db823eb306d8e4335611
+>>>>>>> 5cbef83aa5a495c8655b787d4555da75026e9944
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.BaiTapTuan3">
+=======
+<<<<<<< HEAD
+        android:theme="@style/Theme.JetpackCompose">
+>>>>>>> 5cbef83aa5a495c8655b787d4555da75026e9944
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
+<<<<<<< HEAD
             android:theme="@style/Theme.BaiTapTuan3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+=======
+            android:theme="@style/Theme.JetpackCompose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+=======
+<<<<<<< HEAD
+        android:theme="@style/Theme.MyApp">
+=======
+        android:theme="@style/Theme.HW2_bt3">
+
+>>>>>>> 13268ee (hw2)
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+>>>>>>> 50aa58d3afa097313323db823eb306d8e4335611
+>>>>>>> 5cbef83aa5a495c8655b787d4555da75026e9944
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+<<<<<<< HEAD
 
 </manifest>
+=======
+<<<<<<< HEAD
+
+</manifest>
+=======
+<<<<<<< HEAD
+</manifest>
+=======
+</manifest>
+>>>>>>> 13268ee (hw2)
+>>>>>>> 50aa58d3afa097313323db823eb306d8e4335611
+>>>>>>> 5cbef83aa5a495c8655b787d4555da75026e9944
