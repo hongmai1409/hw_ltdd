@@ -40,6 +40,7 @@ android {
     buildFeatures {
         compose = true
     }
+
 }
 
 dependencies {
@@ -63,5 +64,10 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth")
     implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation("com.facebook.android:facebook-login:17.0.0")
+    implementation("com.facebook.android:facebook-login:latest_version")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:latest_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:latest_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:latest_version")
     implementation("com.google.android.gms:play-services-auth:21.0.0")
 }

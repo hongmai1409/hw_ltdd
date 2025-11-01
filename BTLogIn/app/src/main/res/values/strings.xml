@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">BTLogIn</string>
     <string name="default_web_client_id">952166992879-t65to4tp37u2d450sohp7b5atna2iokc.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">2770007896667489</string>
+    <string name="facebook_client_token">97a5ef3304ace45fe4ea68f9ef0e52a4</string>
+    <string name="fb_login_protocol_scheme">fb2770007896667489</string>
 </resources>
